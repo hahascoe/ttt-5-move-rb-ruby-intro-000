@@ -12,7 +12,7 @@ def input_to_index
   new_user_input = 1
   puts new_user_input
 
-def update_array_at_with(array, index, value)
+def move (array, index, value)
   array[index] = value
 end
 

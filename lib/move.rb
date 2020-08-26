@@ -16,5 +16,3 @@ def move (board, index, character = "X")
   board[index] = character
   puts board
 end
-
-update_array_at_with(board,move,char )

@@ -10,9 +10,9 @@ end
 def input_to_index 
   new_user_input = user_input.to_i
   new_user_input -= 1
-  puts new_user_input
+  return new_user_input
 
 def move (board, index, character = "X")
   board[index] = character
-  puts board
+  return board
 end
